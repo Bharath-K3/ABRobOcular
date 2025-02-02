@@ -50,6 +50,7 @@ ABRobOcular/
 ├── predict.py
 ├── requirements.txt
 └── train.py
+```
 
 ## Installation
 To install ABRobOcular, follow these steps:
@@ -59,6 +60,8 @@ cd ABRobOcular
 pip install -r requirements.txt
 ```
 
+## Citation
+Please cite us if you find our work useful
 '''bibtex
 @article{abrobocular2025,
   title={ABRobOcular: Adversarial Benchmarking and Robustness for Ocular Biometrics},
