@@ -4,19 +4,14 @@
 
 A comprehensive library for evaluating and defending against adversarial attacks in ocular biometric systems.
 
-## Overview
-ABRobOcular provides implementations of both black-box and white-box adversarial attacks, along with various defense mechanisms, specifically designed for ocular-based user recognition systems.
+## Abstract
+Ocular biometrics, leveraging the unique traits of the eye region, stands as the pinnacle of cutting-edge technology. They have been widely adopted for identity verification and healthcare applications, and seamlessly integrated into products by tech giants like Meta and Apple. However, despite their rapid adoption and transformative potential, the vulnerability of ocular biometrics to sophisticated adversarial attacks remains alarmingly unaddressed. 
 
-## Key Features
-- Implementation of 5 gradient-based white-box attacks
-- Novel black-box adversarial attacks:
-  - Patch Occlusion Attack
-  - Monocle Blending Attack
-- Evaluation framework for 5 benchmark datasets
-- 9 state-of-the-art white-box defenses
-- Unified defense mechanisms for joint protection
-- Multi-detector model for real-time attack detection
-- TensorFlow and PyTorch support
+Adversarial attacks involve using digitally altered data to deceive deep learning models into producing incorrect outputs. Understanding the vulnerability of ocular biometrics against adversarial attacks and the potential of proposed defenses is vital to the robust deployment of secure and reliable technology on a global scale.
+
+The aim of this paper is to investigate black-box and white-box-based adversarial attacks against ocular-based user recognition algorithms.
+To this end, we benchmark the impact of $2$ ocular-specific, black-box adversarial attacks, and $5$ popular white-box adversarial attacks alongside their counterpart $9$ defenses across multiple datasets. In addition, we propose $3$ unified defenses against joint black-box and white-box attacks.
+To the best of our knowledge, this is the first comprehensive study of its kind. To facilitate further research, we are releasing the ocular image datasets with adversarial attacks, as well as the evaluation code, under the ABRobOcular library, providing a valuable resource for future work in the field.
 
 ## Directory Structure
 ```plaintext
