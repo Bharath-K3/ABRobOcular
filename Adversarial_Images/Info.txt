@@ -1,0 +1,1 @@
+This is where your generated images will be stored if the True parameter is selected during the run.

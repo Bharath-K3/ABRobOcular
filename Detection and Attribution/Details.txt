@@ -1,0 +1,24 @@
+Directory Structure:
+Detection And Attribution/
+├── config.yml
+├── dataset_loader.py
+├── utils.py
+├── train.py
+├── eval.py
+├── predict.py
+├── multi-detector/
+│   ├── train/
+│   ├── validation/
+│   └── test/
+└── trained_models/
+
+
+Training Workflow:
+# Train the model
+python train.py
+
+# Evaluate the model
+python eval.py
+
+# Make predictions
+python predict.py

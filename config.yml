@@ -1,0 +1,35 @@
+# Model Configuration
+model:
+  input_shape: [256, 256, 3]
+  n_classes: 300
+  fine_tune_at: 100
+  dense_units: 1024
+
+# ArcFace Configuration
+arcface:
+  scale: 64.0
+  margin: 0.50
+
+# Training Configuration
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.0001
+  early_stop_patience: 20
+  reduce_lr_patience: 5
+  reduce_lr_factor: 0.2
+  min_lr: 0.0001
+
+# Data Configuration
+data:
+  train_dir: "ocular_recognition/train"
+  val_dir: "ocular_recognition/validation"
+  test_dir: "ocular_recognition/test"
+  target_size: [256, 256]
+  class_mode: "categorical"
+
+# Paths Configuration
+paths:
+  model_save_dir: "trained_models"
+  model_name: "Xception_best_model_ArcFace_Base.h5"
+  adversarial_dir: "Adversarial_Images"

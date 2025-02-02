@@ -1,0 +1,28 @@
+train
+--> Class 1
+----> Image1.png
+----> Image2.png
+
+--> Class 2
+----> Image1.png
+...............
+
+
+validation
+--> Class 1
+----> Image1.png
+----> Image2.png
+
+--> Class 2
+----> Image1.png
+...............
+
+
+test
+--> Class 1
+----> Image1.png
+----> Image2.png
+
+--> Class 2
+----> Image1.png
+...............
