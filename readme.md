@@ -58,7 +58,12 @@ pip install -r requirements.txt
 ## Citation
 Please cite us if you find our work useful
 ```bibtex
-@article{abrobocular2025,
-  title={ABRobOcular: Adversarial Benchmarking and Robustness for Ocular Biometrics},
-}# ABRobOcular
+@article{krishnamurthy2025abrobocular,
+  title={ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition},
+  author={Krishnamurthy, Bharath and Rattani, Ajita},
+  journal={Neurocomputing},
+  pages={130352},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
