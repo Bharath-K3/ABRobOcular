@@ -1,6 +1,6 @@
 # ABRobOcular: Adversarial Benchmarking and Robustness for Ocular Biometrics
 
-[![Paper](https://img.shields.io/badge/Paper-📄Neurocomputing-green)](https://www.sciencedirect.com/science/article/pii/S0925231225010240)
+[![Paper](https://img.shields.io/badge/Paper-📄Neurocomputing-red)](https://www.sciencedirect.com/science/article/pii/S0925231225010240)
 [![Dataset](https://img.shields.io/badge/Dataset-🤗%20Hugging%20Face-yellow)](https://huggingface.co/datasets/BharathK333/ABRobOcular_Attacks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
