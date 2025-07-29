@@ -15,7 +15,7 @@ The aim of this paper is to investigate black-box and white-box-based adversaria
 To this end, we benchmark the impact of $2$ ocular-specific, black-box adversarial attacks, and $5$ popular white-box adversarial attacks alongside their counterpart $9$ defenses across multiple datasets. In addition, we propose $3$ unified defenses against joint black-box and white-box attacks.
 To the best of our knowledge, this is the first comprehensive study of its kind. To facilitate further research, we are releasing the ocular image datasets with adversarial attacks, as well as the evaluation code, under the ABRobOcular library, providing a valuable resource for future work in the field.
 
-![A taxonomy of adversarial attacks and defenses in ocular biometrics categorizing attacks into white-box (e.g., BIM, CW, FGSM, MIM, PGD) and black-box (e.g., Patch Occlusion and Monocle Blending). Defenses include white-box methods like compression (Bit-Red, JPEG, FD), adversarial training (FGSM-AT, PGD-AT, EAT), randomization (PD, Rand, RDG), and black-box methods (e.g., Patch and Strip Augmentation). Detection and attribution methods differentiate authentic from the type of adversarial white-box and black-box attacks.](assets/Taxonomy.jpg)
+![A taxonomy of adversarial attacks and defenses in ocular biometrics categorizing attacks into white-box (e.g., BIM, CW, FGSM, MIM, PGD) and black-box (e.g., Patch Occlusion and Monocle Blending). Defenses include white-box methods like compression (Bit-Red, JPEG, FD), adversarial training (FGSM-AT, PGD-AT, EAT), randomization (PD, Rand, RDG), and black-box methods (e.g., Patch and Strip Augmentation). Detection and attribution methods differentiate authentic from the type of adversarial white-box and black-box attacks.](Assets/Taxonomy.jpg)
 
 ## Directory Structure
 ```plaintext
@@ -74,4 +74,4 @@ Please cite us if you find our work useful
 
 ## Acknowledgements
 This work is supported in part by the National Science Foundation (NSF) , United States award no. 2345561.
-![](assets/NSF_Logo.png)
+![](Assets/NSF_Logo.png)
