@@ -15,6 +15,8 @@ The aim of this paper is to investigate black-box and white-box-based adversaria
 To this end, we benchmark the impact of $2$ ocular-specific, black-box adversarial attacks, and $5$ popular white-box adversarial attacks alongside their counterpart $9$ defenses across multiple datasets. In addition, we propose $3$ unified defenses against joint black-box and white-box attacks.
 To the best of our knowledge, this is the first comprehensive study of its kind. To facilitate further research, we are releasing the ocular image datasets with adversarial attacks, as well as the evaluation code, under the ABRobOcular library, providing a valuable resource for future work in the field.
 
+![alt text](assets/taxonomy.jpg)
+
 ## Directory Structure
 ```plaintext
 ABRobOcular/
@@ -69,3 +71,7 @@ Please cite us if you find our work useful
   publisher={Elsevier}
 }
 ```
+
+Acknowledgements
+This work is supported in part by the National Science Foundation (NSF) , United States award no. 2345561.
+![alt text](assets/NSF_Logo.png)
