@@ -16,7 +16,8 @@ To this end, we benchmark the impact of $2$ ocular-specific, black-box adversari
 To the best of our knowledge, this is the first comprehensive study of its kind. To facilitate further research, we are releasing the ocular image datasets with adversarial attacks, as well as the evaluation code, under the ABRobOcular library, providing a valuable resource for future work in the field.
 
 ![Taxonomy of adversarial attacks and defenses](Assets/Taxonomy.jpg)
-*Figure: A taxonomy of adversarial attacks and defenses in ocular biometrics categorizing attacks into white-box (e.g., BIM, CW, FGSM, MIM, PGD) and black-box (e.g., Patch Occlusion and Monocle Blending). Defenses include white-box methods like compression (Bit-Red, JPEG, FD), adversarial training (FGSM-AT, PGD-AT, EAT), randomization (PD, Rand, RDG), and black-box methods (e.g., Patch and Strip Augmentation). Detection and attribution methods differentiate authentic from the type of adversarial white-box and black-box attacks.*
+
+**Figure**: *A taxonomy of adversarial attacks and defenses in ocular biometrics categorizing attacks into white-box (e.g., BIM, CW, FGSM, MIM, PGD) and black-box (e.g., Patch Occlusion and Monocle Blending). Defenses include white-box methods like compression (Bit-Red, JPEG, FD), adversarial training (FGSM-AT, PGD-AT, EAT), randomization (PD, Rand, RDG), and black-box methods (e.g., Patch and Strip Augmentation). Detection and attribution methods differentiate authentic from the type of adversarial white-box and black-box attacks.*
 
 ## Directory Structure
 ```plaintext
