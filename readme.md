@@ -72,6 +72,6 @@ Please cite us if you find our work useful
 }
 ```
 
-Acknowledgements
+## Acknowledgements
 This work is supported in part by the National Science Foundation (NSF) , United States award no. 2345561.
 ![alt text](assets/NSF_Logo.png)
